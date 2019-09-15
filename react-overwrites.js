@@ -10,12 +10,12 @@ module.exports = {
 
     // Prevent direct mutation of this.state (react/no-direct-mutation-state)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-    'react/no-direct-mutation-state': 'error'
+    'react/no-direct-mutation-state': 'error',
 
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     // this is necessary for server-rendering
-    'react/no-did-mount-set-state': 'error',
+    'react/no-did-mount-set-state': 'error'
 
     // developit/eslint-config-developit <- preact specific rules
   }
