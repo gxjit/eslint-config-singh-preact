@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-singh-react",
+  "name": "eslint-config-singh-preact",
   "version": "0.1.0",
   "description": "Eslint Config froked from airbnb",
   "main": "index.js",
