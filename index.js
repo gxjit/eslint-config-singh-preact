@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     'eslint-config-singh',
     'eslint-config-airbnb/rules/react',
-    'eslint-config-airbnb/rules/react-hooks.js',
+    'eslint-config-airbnb/rules/react-hooks',
     './react-overwrites'
   ].map(require.resolve),
   settings: {
