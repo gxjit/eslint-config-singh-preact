@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-singh-react",
+  "version": "0.1.0",
+  "description": "Eslint Config froked from airbnb",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "react"
+  ],
+  "author": "Gurjit Singh",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-singh": "https://github.com/gxjit/eslint-config-singh/tarball/master",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.16.0 || ^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": ">= 1.13.0 || ^1.16.4"
+  }
+}
