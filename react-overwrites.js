@@ -15,8 +15,10 @@ module.exports = {
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     // this is necessary for server-rendering
-    'react/no-did-mount-set-state': 'error'
+    'react/no-did-mount-set-state': 'error',
 
+    // preact doesnt support em
+    'react/prop-types': 'off'
     // developit/eslint-config-developit <- preact specific rules
   }
 }
