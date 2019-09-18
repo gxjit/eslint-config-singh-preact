@@ -18,7 +18,11 @@ module.exports = {
     'react/no-did-mount-set-state': 'error',
 
     // preact doesnt support em
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+
+    // malfunctioning due to version conflict with preact
+    'react/jsx-fragments': 'off'
+
     // developit/eslint-config-developit <- preact specific rules
   }
 }
